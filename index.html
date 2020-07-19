@@ -1,5 +1,1455 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Hello World</title>
+  <title>Log Adreces IP Núvol</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./estils.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+<body>
+<div id="#top"></div>
+<div class="container">
+  <h2>0x520</h2>
+  <h4>Aquesta taula conté:</h4>  
+  <pre>
+  [1] - La data i hora d'accés (servidor).
+  [2] - Adreces IP externes <strong>NO CONEGUDES</strong>.
+  [3] - Si està enmascarada per <strong>Proxy i/o VPN</strong>.
+  [4] - Informació rellevant sobre els dispositius.
+  [5] - Navegador/s utilitzats per accesar el lloc web.
+  [6] - HTTP Header <strong>cru</strong>.
+
+  [?] - Per qualsevol dubte/consulta, contacteu amb <a class="tretzeDotze" onclick="document.getElementById('ajuda').style.display='block'">0x520</a>.</pre>
+
+<div id="ajuda" class="alerta"><div class="alerta-contingut" >
+    <pre><span class="tretzeDotze" onclick="document.getElementById('ajuda').style.display='none'">[tanca]</span>
+<div class="PGP">
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: OpenPGP.js v4.10.4
+Comment: https://openpgpjs.org; 0x520@protonmail.ch;
+
+xsBNBF7p2PEBCADNgoC5TSe/2GEPfegXtvjHIZ/X4h1t+KDCC8OU6J5/tJcw
++uGSb69HIgVITJsVWlZWw5LfcpiEr1z9HB6LCuKFAOesbagwpkSrXkCurtw8
+65G0Zy0Xwe7D0wolDDdq2BS5o5gzSljcMW5h5Vx3ThUzzv2NNrizQ+BClX+d
+Lq3ywfyGMtax81XYHAUT4IfwVZoybYxh0H0S+DeqyOmpkt2G+neFOau6QdoD
+hNqKJijeckU4wIMNfOhbHFSl4BlCPW6fRUF+03vb7nuhH7PlNELIHP//mV13
+uWo+XTMxIYM39JI7/3eTZ5dq7yg4GEyrjCw6IIyQ5GCM25xwjqmTbpv9ABEB
+AAHNKTB4NTIwQHByb3Rvbm1haWwuY2ggPDB4NTIwQHByb3Rvbm1haWwuY2g+
+wsB2BBABCAAgBQJe6djxBgsJBwgDAgQVCAoCBBYCAQACGQECGwMCHgEACgkQ
+24j7OvJo0WycBwf+KLa/cWCRSS1zx4m1VAiDzqX2UX+F9Dw2DV5G54gwwPox
+h7+HGtrTpMeKJ+Q3ynkemKYsKrAQW0tBVmikY111cQa2IStVJDfLJKJ/O6jd
+MVTkcT2EnQfXgsdH1yzfAOwendWyfMzc9iw7mCNYgtEkai9XM8XjXeulBCCX
+k8ny9ckrchkbjv796o+isMJ7W7OPJVDdYXCF9CMdp0GEYlzdLx61G3blips3
+/CiGXiIGpF6mJutX7H7G14Nq5UA8rvlVRLqYrDwnUDX8UxjJbDCUvDktl1uq
+tS5NFFUtgrueR2WThJ+6flWhjUMMUtIPfWeMmx5QhbcDftPdBzBA+UnqWM7A
+TQRe6djxAQgAnsTV4kBa91ISdv4Zdy8mCCqoEd8guaY6E+xjwrAY7hDXPPoN
+Z/dj1lRcs+bvbqckXyedWh1RS2zDJLFYprcYErGMYazm8M+AvEtHTDwjwb0a
+AnNfL9f+NLquHXzB7IUAlFXHI6l3xZ86PM3c6ygLp1L/WMUd1BNfkWFgGrje
+wV3JAIy2SUQIx6MM7ddlT54jkqzIaJ8h2wZsuFndLL1is+eDc8R9xUAWyKrw
+lcmND3c5fk2Ro7GtJ10GUti/MJlHWKbauEjnNA3AtAjNUYo6cTV2+mcAQJcT
+HyxHxyu3r+HG364WIFjZJ1KBMuKcunq9n4MKXRGsQPlYJsKxY8nM8wARAQAB
+wsBfBBgBCAAJBQJe6djxAhsMAAoJENuI+zryaNFsqS4H/igErxKfM8TNPdnG
+V2BJ4PnoBI0JU4pQWlNM/+bbKzh2y2dAxsDzxrUQaPDPxUJ2haA5uR6voP8g
+1H5c0WXh5p7rjkgk3H+vfTgMNyxV15fchkVuW5uzbXR42aatrqPCXtpRc7BA
+PjozDw1IiM03UR/u7YJM7bmUYPTyanUab3C/NSZ8zhlljvQkve6ebvedUs9z
+wPelOUB8ZrdBcZEGsaqIZy1Mm0ywvR3oM6AhdfyKqtULCgyZFMCt5Wh8oKQj
+i2mzmeLF+T5d7ZtCwCectDiF41tfFVv158sy0Tp6LE5KXffQEUHCSWAHty32
++CAmOdb2kZ17c0LMUBbgbfbobGw=
+=/gtZ
+-----END PGP PUBLIC KEY BLOCK-----</div></pre>
+    </div></div>
+
+  <div>
+
+  <input class="form-control" id="dadesTaula" type="text" placeholder="Cerca...">
+  <br>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Data</th>
+        <th>Hora</th>
+        <th>Adre&ccedil;a IP</th>
+        <th>Tipus IP</th>
+        <th>Prove&iuml;dor / ISP / ASN</th>
+        <th>Proxy / VPN</th>
+        <th style="width:300pt;">Dispositiu / Sistema Operatiu / Arquitectura</th>
+        <th>Navegador</th>
+        <th>Header (RAW)</th>
+      </tr>
+    </thead>
+    <tbody id="dadesColumnes">
+        <tr>
+            <td>
+                <p>1</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:21</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:1d::133</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>2</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:22</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:1d::133</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>3</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:23</p>
+            </td>
+            <td>
+                <p>77.111.246.8</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Opera Mini Proxy</p>
+                <p>ORG: Opera Mini Proxy NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>4</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:25</p>
+            </td>
+            <td>
+                <p>2001:67c:198c:906:42f2:e9ff:fec5:78a</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>5</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:26</p>
+            </td>
+            <td>
+                <p>88.15.196.55</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Telefonica de Espana SAU</p>
+                <p>ORG: Telefonica de Espana SAU</p>
+                <p>NETNAME: RIMA</p>
+            </td>
+            <td>
+                <p>NO</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Firefox 78</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>6</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:33</p>
+            </td>
+            <td>
+                <p>2001:67c:198c:906:42f2:e9ff:fec5:78a</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>7</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:33</p>
+            </td>
+            <td>
+                <p>2001:67c:198c:906:42f2:e9ff:fec5:78a</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>8</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:34</p>
+            </td>
+            <td>
+                <p>2001:67c:198c:906:42f2:e9ff:fec5:78a</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>9</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:35</p>
+            </td>
+            <td>
+                <p>88.15.196.55</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Telefonica de Espana SAU</p>
+                <p>ORG: Telefonica de Espana SAU</p>
+                <p>NETNAME: RIMA</p>
+            </td>
+            <td>
+                <p>No</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Chrome 83</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>10</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:38</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:1d::133</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>11</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:45</p>
+            </td>
+            <td>
+                <p>88.15.196.55</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Telefonica de Espana SAU</p>
+                <p>ORG: Telefonica de Espana SAU</p>
+                <p>NETNAME: RIMA</p>
+            </td>
+            <td>
+                <p>No</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Firefox 78</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>12</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:50</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:1d::133</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>13</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:57</p>
+            </td>
+            <td>
+                <p>77.111.246.8</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Opera Mini Proxy</p>
+                <p>ORG: Opera Mini Proxy NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>14</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>10:57</p>
+            </td>
+            <td>
+                <p>77.111.246.8</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Opera Mini Proxy</p>
+                <p>ORG: Opera Mini Proxy NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>15</p>
+            </td>
+            <td>
+                <p>14/07/2020</p>
+            </td>
+            <td>
+                <p>21:51</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe0b:6dec</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>M&ograve;bil [Samsung Galaxy A10s]</p>
+                <p>&nbsp;</p>
+                <p>Model: &nbsp;SM-A107F / Android 10</p>
+            </td>
+            <td>
+                <p>Opera 58.2</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Linux; Android 10; SM-A107F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36 OPR/58.2.2878.53403</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>16</p>
+            </td>
+            <td>
+                <p>15/07/2020</p>
+            </td>
+            <td>
+                <p>11:58</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe0b:6dec</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>17</p>
+            </td>
+            <td>
+                <p>15/07/2020</p>
+            </td>
+            <td>
+                <p>11:58</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe0b:6dec</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>18</p>
+            </td>
+            <td>
+                <p>15/07/2020</p>
+            </td>
+            <td>
+                <p>12:04</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe0b:6dec</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>19</p>
+            </td>
+            <td>
+                <p>15/07/2020</p>
+            </td>
+            <td>
+                <p>12:18</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe0b:6dec</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>20</p>
+            </td>
+            <td>
+                <p>15/07/2020</p>
+            </td>
+            <td>
+                <p>12:20</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe0b:6dec</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>21</p>
+            </td>
+            <td>
+                <p>15/07/2020</p>
+            </td>
+            <td>
+                <p>12:20</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe0b:6dec</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>22</p>
+            </td>
+            <td>
+                <p>15/07/2020</p>
+            </td>
+            <td>
+                <p>13:25</p>
+            </td>
+            <td>
+                <p>31.4.189.147</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: VODAFONE ESPANA S.A.U.</p>
+                <p>ORG: VODAFONE ESPANA S.A.U. NETNAME: ES-AIRTEL-20110407</p>
+            </td>
+            <td>
+                <p>No</p>
+            </td>
+            <td>
+                <p>M&ograve;bil [Huawei P smart 2019]&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>Model: POT-LX1 /</p>
+                <p>&nbsp;Android 10</p>
+            </td>
+            <td>
+                <p>Chrome 74</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Linux; Android 10; POT-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.186 Mobile Safari/537.36</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>23</p>
+            </td>
+            <td>
+                <p>15/07/2020</p>
+            </td>
+            <td>
+                <p>13:34</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:25::192</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>24</p>
+            </td>
+            <td>
+                <p>15/07/2020</p>
+            </td>
+            <td>
+                <p>17:25</p>
+            </td>
+            <td>
+                <p>2001:67c:198c:906:42f2:e9ff:fec5:8c2</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>25</p>
+            </td>
+            <td>
+                <p>16/07/2020</p>
+            </td>
+            <td>
+                <p>09:16</p>
+            </td>
+            <td>
+                <p>77.111.246.126</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Opera Mini Proxy</p>
+                <p>ORG: Opera Mini Proxy NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>26</p>
+            </td>
+            <td>
+                <p>16/07/2020</p>
+            </td>
+            <td>
+                <p>09:19</p>
+            </td>
+            <td>
+                <p>77.111.246.9</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Opera Mini Proxy</p>
+                <p>ORG: Opera Mini Proxy NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>27</p>
+            </td>
+            <td>
+                <p>16/07/2020</p>
+            </td>
+            <td>
+                <p>09:19</p>
+            </td>
+            <td>
+                <p>77.111.246.9</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Opera Mini Proxy</p>
+                <p>ORG: Opera Mini Proxy NETNAME: HERNLABS</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>28</p>
+            </td>
+            <td>
+                <p>16/07/2020</p>
+            </td>
+            <td>
+                <p>12:21</p>
+            </td>
+            <td>
+                <p>83.36.49.99</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP: Telefonica de Espana SAU</p>
+                <p>ORG: Telefonica de Espana SAU</p>
+                <p>NETNAME: RIMA</p>
+            </td>
+            <td>
+                <p>No</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 10.O / Win64; x64</p>
+            </td>
+            <td>
+                <p>Chrome 83</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>29</p>
+            </td>
+            <td>
+                <p>16/07/2020</p>
+            </td>
+            <td>
+                <p>13:09</p>
+            </td>
+            <td>
+                <p>2001:67c:198c:906:42f2:e9ff:fec5:7d2</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>30</p>
+            </td>
+            <td>
+                <p>16/07/2020</p>
+            </td>
+            <td>
+                <p>14:35</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe0b:6f64</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>31</p>
+            </td>
+            <td>
+                <p>16/07/2020</p>
+            </td>
+            <td>
+                <p>18:51</p>
+            </td>
+            <td>
+                <p>2001:67c:198c:906:42f2:e9ff:fec5:784</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 68</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.173</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>32</p>
+            </td>
+            <td>
+                <p>16/07/2020</p>
+            </td>
+            <td>
+                <p>18:55</p>
+            </td>
+            <td>
+                <p>83.247.136.74</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP-ORG: Centre de Telecomunicacions i Tecnologies de la Informacio de la Generalitat de Catalunya</p>
+                <br>
+                <p>NETNAME: GENCAT-RA-GPA</p>
+            </td>
+            <td>
+                <p>No</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Chrome 80</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>33</p>
+            </td>
+            <td>
+                <p>17/07/2020</p>
+            </td>
+            <td>
+                <p>09:16</p>
+            </td>
+            <td>
+                <p>83.247.136.74</p>
+            </td>
+            <td>
+                <p>IPv4</p>
+            </td>
+            <td>
+                <p>ISP-ORG: Centre de Telecomunicacions i Tecnologies de la Informacio de la Generalitat de Catalunya</p>
+                <br>
+                <p>NETNAME: GENCAT-RA-GPA</p>
+            </td>
+            <td>
+                <p>No</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Internet Explorer 11</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>34</p>
+            </td>
+            <td>
+                <p>17/07/2020</p>
+            </td>
+            <td>
+                <p>13:37</p>
+            </td>
+            <td>
+                <p>2001:67c:198c:906:42f2:e9ff:fec5:78a</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 69</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>35</p>
+            </td>
+            <td>
+                <p>17/07/2020</p>
+            </td>
+            <td>
+                <p>16:46</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe1d:4b40</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 69</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>36</p>
+            </td>
+            <td>
+                <p>17/07/2020</p>
+            </td>
+            <td>
+                <p>17:04</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe1d:4b40</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 69</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>37</p>
+            </td>
+            <td>
+                <p>17/07/2020</p>
+            </td>
+            <td>
+                <p>17:15</p>
+            </td>
+            <td>
+                <p>2001:67c:2660:425:92e2:baff:fe1d:4b40</p>
+            </td>
+            <td>
+                <p>IPv6</p>
+            </td>
+            <td>
+                <p>ASN: AS205016</p>
+                <p>ORG: ORG-HLA24-RIPE</p>
+                <p>NETNAME: NO-OPERA-20180314</p>
+            </td>
+            <td>
+                <p>VPN Gratu&iuml;t integrat al Navegador (Opera)</p>
+            </td>
+            <td>
+                <p>Ordinador / Windows NT 6.1 / Win64; x64</p>
+            </td>
+            <td>
+                <p>Opera 69</p>
+            </td>
+            <td>
+                <p>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>38</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>39</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>40</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+            <td>
+                <p>&nbsp;</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<pre class="peu">2018 - 2020 | <strong class="tretzeDotze">0x520[arroba]pm.me</strong> | <a href="#top">Amunt</pre>
+</div></div>
+
+<script>
+$(document).ready(function(){
+  $("#dadesTaula").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#dadesColumnes tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+</body>
 </html>
