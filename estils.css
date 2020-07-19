@@ -1,0 +1,13 @@
+table{font-family:Inconsolata,sans-serif}
+.tretzeDotze{color:#f5f5f5;background-color:#000;padding:2px}
+.tretzeDotze:hover{color:#000;background-color:#f5f5f5;padding:2px}a:visited{color:red}
+.alerta{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,.4)}
+.alerta-contingut{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px;border-radius: 25px;}
+.alerta-contingut{margin-left:auto;margin-right:auto}
+.alerta-contingut{max-width:980px}
+th{vertical-align: middle !important;text-align: center;}
+@media (max-width:600px){.alerta-contingut{margin:0 10px;width:auto!important}.alerta{padding-top:30px}
+@media (max-width:768px){.alerta-contingut{width:500px}.alerta{padding-top:50px}}@media (min-width:993px){.alerta-contingut{width:900px}}
+.tanca{text-align:right}}
+.PGP{margin-left: auto;max-width: 495px;padding-bottom: 20px}
+.peu {right: 0;bottom: 0;left: 0;padding: 1rem;background-color: #efefef;text-align: center}
